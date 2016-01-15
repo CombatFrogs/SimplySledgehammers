@@ -52,7 +52,7 @@ public class ItemSledgehammerEvents {
         }
 
         Block block = event.state.getBlock();
-        Item blockItem = Item.getItemFromBlock(block);
+        ItemStack blockStack = new ItemStack(block, 1, block.damageDropped(event.state));
 
         int fortuneLevel = EnchantmentHelper.getFortuneModifier(player);
 
@@ -61,7 +61,7 @@ public class ItemSledgehammerEvents {
             for (Map.Entry<String, ItemStack> sledgingEntry : sledgingMap.entrySet()) {
                 List<ItemStack> ores = OreDictionary.getOres(sledgingEntry.getKey());
                 for (ItemStack oreStack : ores) {
-                    if (oreStack.getItem() != null && oreStack.getItem().equals(blockItem)) {
+                    if (oreStack != null && oreStack.isItemEqual(blockStack)) {
                         droppedChunk = sledgingEntry.getValue();
                         break;
                     }
