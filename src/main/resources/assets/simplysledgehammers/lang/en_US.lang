@@ -1,0 +1,23 @@
+item.simplysledgehammers_hammer_wood.name=Wood Sledgehammer
+item.simplysledgehammers_hammer_stone.name=Stone Sledgehammer
+item.simplysledgehammers_hammer_iron.name=Iron Sledgehammer
+item.simplysledgehammers_hammer_gold.name=Gold Sledgehammer
+item.simplysledgehammers_hammer_emerald.name=Diamond Sledgehammer
+
+item.simplysledgehammers_unsmelted_ingot_iron.name=Unsmelted Iron Ingot
+item.simplysledgehammers_unsmelted_ingot_gold.name=Unsmelted Gold Ingot
+item.simplysledgehammers_unsmelted_ingot_copper.name=Unsmelted Copper Ingot
+item.simplysledgehammers_unsmelted_ingot_tin.name=Unsmelted Tin Ingot
+item.simplysledgehammers_unsmelted_ingot_nickel.name=Unsmelted Nickel Ingot
+item.simplysledgehammers_unsmelted_ingot_lead.name=Unsmelted Lead Ingot
+item.simplysledgehammers_unsmelted_ingot_silver.name=Unsmelted Silver Ingot
+
+item.simplysledgehammers_ore_chunk_iron.name=Iron Ore Chunk
+item.simplysledgehammers_ore_chunk_gold.name=Gold Ore Chunk
+item.simplysledgehammers_ore_chunk_copper.name=Copper Ore Chunk
+item.simplysledgehammers_ore_chunk_tin.name=Tin Ore Chunk
+item.simplysledgehammers_ore_chunk_nickel.name=Nickel Ore Chunk
+item.simplysledgehammers_ore_chunk_lead.name=Lead Ore Chunk
+item.simplysledgehammers_ore_chunk_silver.name=Silver Ore Chunk
+
+item.simplysledgehammers_cobblestones.name=Cobblestones
